@@ -65,10 +65,10 @@ if (@$GLOBALS[46] ($GLOBALS[47] ($_COOKIE["webshelLoginVerify"]), $password)) {
 	<title>FrekaGx</title>
 	<style>
 		body, input, button, a {
-			color: black;
+			color: white;
 		}
 		body {
-			background: white;
+			background: black;
 			font-family: monospace;
 			font-size: 120%;
 		}
